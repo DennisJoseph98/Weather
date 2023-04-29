@@ -60,6 +60,15 @@ input{
     font-size: medium;
     font-weight: 500;
     background-color: chartreuse;
+    transition: 0.5s;
+}
+#lbtn:hover{
+    
+    background-color: orangered;
+}
+#lbtn:active{
+    
+    background-color: yellow;
 }
 .card{
     background-color: rgba(0, 255, 255, 0.547);
@@ -67,4 +76,7 @@ input{
 }
 .card:hover{
     background-color: rgba(0, 255, 255, 0.923);
+}
+#result{
+    height: 550px;
 }

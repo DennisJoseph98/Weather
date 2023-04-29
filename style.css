@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-image: url("./images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-color: rgb(21, 53, 66);
+}
+input{
+    width: 50%;
+    height: 30px;
+    margin-top: 50px;
+  
+    border: solid 1px;
+}
+
+#searchbtn {
+   height: 30px;
+   width: 100px;
+   border: solid 2px black;
+   font-size: medium;
+   font-weight: 500;
+  }
+  
+  
+  #searchbtn:hover {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  
+  
+  
+.info{
+    font-size: x-large;
+    color:white
+    
+}
+.box{
+    background-color: aqua;
+    
+}
+
+.cimg{
+    width:100%;
+    height: 200px;
+    opacity: 0.85;
+    
+}
+
+.card{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#lbtn{
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    border: solid 2px black;
+    font-size: medium;
+    font-weight: 500;
+    background-color: chartreuse;
+}
+.card{
+    background-color: rgba(0, 255, 255, 0.547);
+    transition: 0.5s;
+}
+.card:hover{
+    background-color: rgba(0, 255, 255, 0.923);
+}

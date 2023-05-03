@@ -6,6 +6,11 @@ body{
     margin: 0;
     background-color: rgb(21, 53, 66);
 }
+@media screen and (max-width: 768px) {
+    body {
+      background-size:auto;
+    }
+  }
 input{
     width: 50%;
     height: 30px;
@@ -77,6 +82,6 @@ input{
 .card:hover{
     background-color: rgba(0, 255, 255, 0.923);
 }
-#result{
+/* #result{
     height: 550px;
-}
+} */
